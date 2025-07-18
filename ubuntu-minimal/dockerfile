@@ -16,6 +16,7 @@ RUN apt-get update && apt-get install -y \
     libomp-dev \
     libopenblas-dev \
     liblapack-dev \
+    doxygen \
     && rm -rf /var/lib/apt/lists/*
 
 # Install gdb
